@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XC7Z015-1CLG485C")(type "KiCad")(uri "${KFOOTEXT}/xc7z015/2025-05-26_13-15-33.kicad_sym")(options "")(descr ""))
+  (lib (name "LP87524")(type "KiCad")(uri "${KFOOTEXT}/ti/LP87524/LP87524JRNFRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "PI7C9X2G608ELBZXAE")(type "KiCad")(uri "${KFOOTEXT}/PI7C9X2G608ELBZXAE/PI7C9X2G608ELBZXAE.kicad_sym")(options "")(descr ""))
+)
