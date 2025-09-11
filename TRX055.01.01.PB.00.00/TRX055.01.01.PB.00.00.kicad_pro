@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -771,6 +771,22 @@
     [
       "f42c7148-2878-49bf-aa6d-96a73e74ef1c",
       "QBUCK_LP87524J1"
+    ],
+    [
+      "d33dce17-5187-4369-8ee7-abeee8119df5",
+      "ETH_PHY_Metal"
+    ],
+    [
+      "171d7f2e-11d9-4fe3-a5af-7b43f2aec6d0",
+      "SFP_Port"
+    ],
+    [
+      "21285d63-f499-4437-963f-c310b4f3a827",
+      "ZYNQ_Bank_112"
+    ],
+    [
+      "f0ca7f96-3c7a-4c32-bd9e-4b7073d44738",
+      "ZynqConfig"
     ]
   ],
   "text_variables": {}
