@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.8,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -753,15 +753,15 @@
       "Module_A1"
     ],
     [
-      "a07ade22-15e9-47be-a9bf-e4e17f639f3a",
+      "db73dbae-1787-4bb4-a2a3-f6d34187aa6e",
       "Module_A2"
     ],
     [
-      "a908d1cb-f603-4f7d-bd54-cee77367b3a9",
+      "6a1492a1-cfb7-4dbf-812f-83cee22c474b",
       "Module_A3"
     ],
     [
-      "ccd3058a-0ace-41bf-9bc6-c0d15223203b",
+      "5ee0e356-b382-47b2-a183-a2703a1554c2",
       "Module_A4"
     ],
     [
