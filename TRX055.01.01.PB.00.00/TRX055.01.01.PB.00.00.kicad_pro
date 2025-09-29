@@ -787,6 +787,30 @@
     [
       "f0ca7f96-3c7a-4c32-bd9e-4b7073d44738",
       "ZynqConfig"
+    ],
+    [
+      "755a3128-95e6-4504-af02-6b757ac04db3",
+      "ETH_Pair"
+    ],
+    [
+      "e900ecd4-0208-4233-bcfd-5bd6dfbf9a0e",
+      "ETH_Pair1"
+    ],
+    [
+      "476152da-3435-4525-a7a7-f4a88a21eac1",
+      "ETH_Pair2"
+    ],
+    [
+      "f3b63256-5a9a-48f1-87e4-cf4749c89ceb",
+      "ETH_Pair3"
+    ],
+    [
+      "52ce5833-a557-4ba1-9eae-7f5ef23d1981",
+      "HDMI"
+    ],
+    [
+      "a05ee7e9-abb0-4ad9-acfd-c49a4dc2f48b",
+      "USB_C"
     ]
   ],
   "text_variables": {}

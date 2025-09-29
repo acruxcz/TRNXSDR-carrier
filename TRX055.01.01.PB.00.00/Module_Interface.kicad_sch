@@ -4524,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ppa-forms:module_sdr_kit_base"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 136.652 160.274 0)
 			(effects
 				(font

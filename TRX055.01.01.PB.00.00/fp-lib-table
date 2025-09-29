@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "XC7Z015")(type "KiCad")(uri "${KFOOTEXT}/xc7z015/footprints.pretty")(options "")(descr ""))
   (lib (name "PI7C9X2G608ELBZXAE")(type "KiCad")(uri "${KFOOTEXT}/PI7C9X2G608ELBZXAE")(options "")(descr ""))
+  (lib (name "snapeda")(type "KiCad")(uri "${KFOOTEXT}/snapeda")(options "")(descr ""))
+  (lib (name "1054500101")(type "KiCad")(uri "${KFOOTEXT}/molex/1054500101")(options "")(descr ""))
 )

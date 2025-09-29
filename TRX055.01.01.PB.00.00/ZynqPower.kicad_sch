@@ -295,6 +295,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PPA-Pasive:Res"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Res"
+				(at -1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "250mW"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "=< 5%"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Res_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:AP22913CN4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -440,6 +559,286 @@
 						)
 					)
 					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TPS51200DRC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS51200DRC"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps51200.pdf"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sink and Source DDR Termination Regulator, VSON-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DDR LDO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*VSON?10?1EP?3x3mm?P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS51200DRC_0_1"
+				(rectangle
+					(start -8.89 -8.89)
+					(end 8.89 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 3.81)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "VOSNS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 3.81)
+					(name "VLDOIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "REFIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "REFOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9642,6 +10041,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -9845,6 +10488,128 @@
 					(length 0)
 					(hide yes)
 					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10324,6 +11089,12 @@
 		(uuid "183ca1bb-98b5-4835-a5d1-4cab00d11148")
 	)
 	(junction
+		(at 359.41 387.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "186b91ba-a454-4442-bc66-a3d5c8bcdb85")
+	)
+	(junction
 		(at 410.21 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10522,6 +11293,12 @@
 		(uuid "33852484-bdb1-40c3-bda1-8ff43298e5ab")
 	)
 	(junction
+		(at 444.5 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344c22a1-fdc0-4fa8-b2f2-f6d385a0d8f6")
+	)
+	(junction
 		(at 360.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10550,6 +11327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e45419f-927d-41af-a65c-0c58ffee6592")
+	)
+	(junction
+		(at 412.75 389.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e519c89-50ad-4574-81c4-10ad44d47776")
 	)
 	(junction
 		(at 420.37 321.31)
@@ -10852,6 +11635,12 @@
 		(uuid "68c86f9a-89a6-46c3-97a7-b372f606ce44")
 	)
 	(junction
+		(at 546.1 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d431dc-7518-4cb9-8dcf-a28056a51336")
+	)
+	(junction
 		(at 430.53 313.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10894,10 +11683,22 @@
 		(uuid "7093e1d0-3bbc-4861-9ffd-96db1950772e")
 	)
 	(junction
+		(at 347.98 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c6a066-80a5-4d75-8623-8fc9243e639b")
+	)
+	(junction
 		(at 533.4 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e2fb7f-e3af-4254-a415-f01b8f1be70b")
+	)
+	(junction
+		(at 406.4 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7430a7ee-d9fd-4890-a14c-623bda0026df")
 	)
 	(junction
 		(at 430.53 82.55)
@@ -11170,6 +11971,12 @@
 		(uuid "ad6f73bc-7262-4f3f-a0f6-ba647a60695c")
 	)
 	(junction
+		(at 382.27 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aee185d0-e510-456d-8c4c-57bc31b7831c")
+	)
+	(junction
 		(at 430.53 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11296,6 +12103,12 @@
 		(uuid "d3599a8e-e75b-4728-8c39-d77da7a42f4d")
 	)
 	(junction
+		(at 309.88 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d448dfc1-b028-4a6b-9ef8-1ae3fa46e44d")
+	)
+	(junction
 		(at 533.4 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11350,6 +12163,12 @@
 		(uuid "ddd8e498-d106-43b3-bdba-58864281de06")
 	)
 	(junction
+		(at 276.86 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df27338c-deb5-4042-9062-067538cf0436")
+	)
+	(junction
 		(at 533.4 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11360,6 +12179,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfdf54fd-7b1c-4671-b603-fc56a72c42f5")
+	)
+	(junction
+		(at 430.53 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f265dd-2039-486a-9622-8d73a75158e4")
 	)
 	(junction
 		(at 421.64 44.45)
@@ -11464,10 +12289,28 @@
 		(uuid "f3521728-2b49-45d2-a50e-acf5cc477067")
 	)
 	(junction
+		(at 430.53 283.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3b08121-3a1e-48ec-905a-d1a6f5a4bfa4")
+	)
+	(junction
+		(at 457.2 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f1f2cf-36b4-4ac7-83b0-d7daee3f46a2")
+	)
+	(junction
 		(at 533.4 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4951904-4c85-41af-8ad2-00b3f0c5ff92")
+	)
+	(junction
+		(at 336.55 382.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50158fb-21a6-4ed8-b6ac-66212e3489d6")
 	)
 	(junction
 		(at 430.53 303.53)
@@ -11661,6 +12504,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 375.92) (xy 406.4 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0756da52-5b66-40a1-9ab4-2cd1adb5e5c1")
+	)
+	(wire
+		(pts
 			(xy 361.95 133.35) (xy 373.38 133.35)
 		)
 		(stroke
@@ -11741,16 +12594,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 237.49) (xy 436.88 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c345558-e19f-4bd2-af45-37dcdf4b00f3")
-	)
-	(wire
-		(pts
 			(xy 533.4 123.19) (xy 533.4 120.65)
 		)
 		(stroke
@@ -11758,6 +12601,16 @@
 			(type default)
 		)
 		(uuid "0c3c2280-8f9c-4301-b8b7-9e8e25cbd2ba")
+	)
+	(wire
+		(pts
+			(xy 412.75 373.38) (xy 412.75 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c453fab-2fc0-4ec6-b482-1fd6c1cf7646")
 	)
 	(wire
 		(pts
@@ -11778,6 +12631,16 @@
 			(type default)
 		)
 		(uuid "0ddb0235-17d2-4865-9bd5-0fd870f4a852")
+	)
+	(wire
+		(pts
+			(xy 347.98 382.27) (xy 369.57 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de42cde-e861-45ae-bd65-a11d99d91337")
 	)
 	(wire
 		(pts
@@ -11821,6 +12684,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 368.3) (xy 382.27 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed6789a-7d67-4624-8a90-2238b2e0d10d")
+	)
+	(wire
+		(pts
 			(xy 133.35 121.92) (xy 133.35 123.19)
 		)
 		(stroke
@@ -11851,6 +12724,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.2 379.73) (xy 457.2 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1190dec6-fe20-4ff6-b1af-b8378cab2128")
+	)
+	(wire
+		(pts
 			(xy 533.4 246.38) (xy 539.75 246.38)
 		)
 		(stroke
@@ -11878,6 +12761,16 @@
 			(type default)
 		)
 		(uuid "142294dc-1204-4043-a67f-63883a79853a")
+	)
+	(wire
+		(pts
+			(xy 412.75 372.11) (xy 382.27 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e2c868-4742-42cc-967d-0782384a47ea")
 	)
 	(wire
 		(pts
@@ -11931,16 +12824,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 285.75) (xy 436.88 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16441920-ef13-4b1b-a6e4-edee0c0191da")
-	)
-	(wire
-		(pts
 			(xy 533.4 153.67) (xy 533.4 160.02)
 		)
 		(stroke
@@ -11948,6 +12831,16 @@
 			(type default)
 		)
 		(uuid "16ebaf70-555c-4af2-9795-86dcdf1c20e3")
+	)
+	(wire
+		(pts
+			(xy 276.86 133.35) (xy 361.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170cc649-985c-45e1-a8b5-11694d1d3cfa")
 	)
 	(wire
 		(pts
@@ -11968,6 +12861,16 @@
 			(type default)
 		)
 		(uuid "18ababa1-4f8c-4270-b2c4-c91ec92a12b4")
+	)
+	(wire
+		(pts
+			(xy 309.88 92.71) (xy 339.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bd1fbc-2318-41ba-8cb2-c711e2a678de")
 	)
 	(wire
 		(pts
@@ -12011,6 +12914,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 382.27) (xy 347.98 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c92c61b-538c-4f6b-9f83-ccff847fd7d7")
+	)
+	(wire
+		(pts
 			(xy 533.4 138.43) (xy 533.4 135.89)
 		)
 		(stroke
@@ -12028,6 +12941,16 @@
 			(type default)
 		)
 		(uuid "1db8b3f0-d5be-4420-98d1-da136c34b9f3")
+	)
+	(wire
+		(pts
+			(xy 412.75 389.89) (xy 412.75 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5bdef9-9c36-4920-b00d-01c86dfe5bbf")
 	)
 	(wire
 		(pts
@@ -12138,6 +13061,16 @@
 			(type default)
 		)
 		(uuid "26a3f128-e91c-4683-9b0f-f44d5fc25be5")
+	)
+	(wire
+		(pts
+			(xy 359.41 394.97) (xy 359.41 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ac53c-56c8-47c2-8aa0-4111ebf49792")
 	)
 	(wire
 		(pts
@@ -12311,6 +13244,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 88.9) (xy 309.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f11ac5f-c858-4e08-991d-9fb48d53b242")
+	)
+	(wire
+		(pts
 			(xy 396.24 252.73) (xy 406.4 252.73)
 		)
 		(stroke
@@ -12338,6 +13281,16 @@
 			(type default)
 		)
 		(uuid "30014599-32ab-4340-b2d2-6e4c991d813f")
+	)
+	(wire
+		(pts
+			(xy 400.05 375.92) (xy 406.4 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309d75e8-59de-4c55-8f33-e8f45d6604a2")
 	)
 	(wire
 		(pts
@@ -12621,6 +13574,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 304.8) (xy 558.8 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b87119-48c2-4793-b7db-e1a3c96d98f8")
+	)
+	(wire
+		(pts
 			(xy 430.53 87.63) (xy 436.88 87.63)
 		)
 		(stroke
@@ -12628,6 +13591,16 @@
 			(type default)
 		)
 		(uuid "42252467-292f-4756-9639-53510ec0c254")
+	)
+	(wire
+		(pts
+			(xy 436.88 285.75) (xy 430.53 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42750227-0907-4e8a-bd57-d0fb48362307")
 	)
 	(wire
 		(pts
@@ -12841,6 +13814,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 382.27) (xy 331.47 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c062c7f-23d3-4a4f-9020-c55e9a78b6ef")
+	)
+	(wire
+		(pts
 			(xy 533.4 261.62) (xy 533.4 269.24)
 		)
 		(stroke
@@ -12971,16 +13954,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 247.65) (xy 436.88 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52883f70-f8fc-4cdc-8524-0038b43b28ee")
-	)
-	(wire
-		(pts
 			(xy 406.4 344.17) (xy 421.64 344.17)
 		)
 		(stroke
@@ -13058,6 +14031,16 @@
 			(type default)
 		)
 		(uuid "58fa5b73-de34-4194-860f-ce2125b89cf7")
+	)
+	(wire
+		(pts
+			(xy 430.53 382.27) (xy 430.53 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596c59d3-8473-41a5-9d2f-a57a9b4687c9")
 	)
 	(wire
 		(pts
@@ -13251,6 +14234,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 389.89) (xy 412.75 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4ebf17-6e91-4757-ae72-1b64d2c0d40e")
+	)
+	(wire
+		(pts
 			(xy 533.4 218.44) (xy 533.4 215.9)
 		)
 		(stroke
@@ -13268,6 +14261,16 @@
 			(type default)
 		)
 		(uuid "601a6276-f2bf-452a-917f-a1c1c95ae426")
+	)
+	(wire
+		(pts
+			(xy 430.53 283.21) (xy 436.88 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60313e52-3feb-4c7f-b6e3-ec4dcbe734f2")
 	)
 	(wire
 		(pts
@@ -13361,16 +14364,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 240.03) (xy 436.88 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677ac67c-1402-4469-889a-647d73d229e4")
-	)
-	(wire
-		(pts
 			(xy 44.45 100.33) (xy 88.9 100.33)
 		)
 		(stroke
@@ -13451,16 +14444,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 245.11) (xy 436.88 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bed827a-b88e-4274-8c1b-0b1094185195")
-	)
-	(wire
-		(pts
 			(xy 533.4 57.15) (xy 533.4 54.61)
 		)
 		(stroke
@@ -13468,6 +14451,16 @@
 			(type default)
 		)
 		(uuid "6c5248dd-6360-433f-a958-74f477dd3bad")
+	)
+	(wire
+		(pts
+			(xy 336.55 382.27) (xy 336.55 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdc2757-1854-4326-b46b-47980c6c7cd8")
 	)
 	(wire
 		(pts
@@ -13568,6 +14561,16 @@
 			(type default)
 		)
 		(uuid "70785f80-6336-47d9-afc8-71168eea0ac9")
+	)
+	(wire
+		(pts
+			(xy 546.1 294.64) (xy 546.1 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709b549a-3ae1-4143-b53c-385a6acc1500")
 	)
 	(wire
 		(pts
@@ -13701,6 +14704,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 382.27) (xy 444.5 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7839e266-1526-46fb-a807-7dab08ea6d24")
+	)
+	(wire
+		(pts
 			(xy 391.16 92.71) (xy 401.32 92.71)
 		)
 		(stroke
@@ -13761,6 +14774,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 382.27) (xy 457.2 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbba471-0418-4d64-8c9c-b1c9f15195e7")
+	)
+	(wire
+		(pts
 			(xy 430.53 336.55) (xy 436.88 336.55)
 		)
 		(stroke
@@ -13798,6 +14821,16 @@
 			(type default)
 		)
 		(uuid "7ef4f534-bc3b-4a8f-a9b2-82679c42dff8")
+	)
+	(wire
+		(pts
+			(xy 412.75 381) (xy 412.75 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f243a27-ed52-4f5e-9234-a17d99abe980")
 	)
 	(wire
 		(pts
@@ -13991,6 +15024,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 400.05) (xy 382.27 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a763463-c4a6-491f-8fde-9bbcd9160d79")
+	)
+	(wire
+		(pts
 			(xy 430.53 72.39) (xy 430.53 69.85)
 		)
 		(stroke
@@ -14128,6 +15171,16 @@
 			(type default)
 		)
 		(uuid "90ecd37f-43de-4ba7-8b9f-5adebe3c40ea")
+	)
+	(wire
+		(pts
+			(xy 457.2 382.27) (xy 457.2 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91140a93-550e-4c77-b262-d95769b23282")
 	)
 	(wire
 		(pts
@@ -14271,6 +15324,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 394.97) (xy 419.1 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8d40ea-ec08-4107-9b4f-cdc947af9868")
+	)
+	(wire
+		(pts
 			(xy 254 62.23) (xy 275.59 62.23)
 		)
 		(stroke
@@ -14288,6 +15351,16 @@
 			(type default)
 		)
 		(uuid "9b83ad2e-f3c7-4572-a0f6-30a5fe3bee56")
+	)
+	(wire
+		(pts
+			(xy 276.86 128.27) (xy 276.86 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf61e20-f9e9-4eb6-bb9e-c4c1dfe04652")
 	)
 	(wire
 		(pts
@@ -14491,6 +15564,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 382.27) (xy 406.4 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dda9ab-ef80-460c-9d04-c01b9dd14cb3")
+	)
+	(wire
+		(pts
 			(xy 533.4 243.84) (xy 533.4 241.3)
 		)
 		(stroke
@@ -14671,13 +15754,13 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 242.57) (xy 436.88 242.57)
+			(xy 400.05 394.97) (xy 400.05 392.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b39f967d-0750-4173-ab21-b3c5e669120a")
+		(uuid "b3adc381-ef45-440e-bcae-7181d6a7bfa8")
 	)
 	(wire
 		(pts
@@ -14731,6 +15814,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 304.8) (xy 546.1 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c64aa5-5a3b-4b37-ab7b-276033334663")
+	)
+	(wire
+		(pts
 			(xy 533.4 220.98) (xy 539.75 220.98)
 		)
 		(stroke
@@ -14778,6 +15871,16 @@
 			(type default)
 		)
 		(uuid "b7be63f1-eb37-4038-94d3-01ce2bc6a08f")
+	)
+	(wire
+		(pts
+			(xy 392.43 375.92) (xy 359.41 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81c3b07-710c-44bd-be6b-58ef743d6250")
 	)
 	(wire
 		(pts
@@ -14831,6 +15934,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 372.11) (xy 382.27 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6e9dd0-feb7-44ad-b29e-d4902445c4db")
+	)
+	(wire
+		(pts
 			(xy 411.48 44.45) (xy 421.64 44.45)
 		)
 		(stroke
@@ -14878,6 +15991,16 @@
 			(type default)
 		)
 		(uuid "bd547251-b39a-4315-8a01-fcb3706d312c")
+	)
+	(wire
+		(pts
+			(xy 359.41 375.92) (xy 359.41 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf8355b-63bb-42d6-9a5b-c4f9bd0d34a2")
 	)
 	(wire
 		(pts
@@ -14938,6 +16061,16 @@
 			(type default)
 		)
 		(uuid "c1671ed9-47d9-4990-8eac-422c87d74f26")
+	)
+	(wire
+		(pts
+			(xy 331.47 382.27) (xy 336.55 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b52d53-e9e2-4c40-9140-bf83d64f3b4a")
 	)
 	(wire
 		(pts
@@ -15041,6 +16174,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 392.43) (xy 394.97 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b51bf3-a94d-4dcc-b94b-9c6f7ece0539")
+	)
+	(wire
+		(pts
 			(xy 533.4 223.52) (xy 539.75 223.52)
 		)
 		(stroke
@@ -15058,6 +16201,16 @@
 			(type default)
 		)
 		(uuid "c73a8c54-89b6-4af0-aab1-aaf979c61b80")
+	)
+	(wire
+		(pts
+			(xy 347.98 382.27) (xy 347.98 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a7dc6c-39a5-4650-a820-38b73571247a")
 	)
 	(wire
 		(pts
@@ -15121,16 +16274,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 234.95) (xy 436.88 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8fc483-d441-4530-a325-b31fe8cb07b2")
-	)
-	(wire
-		(pts
 			(xy 533.4 153.67) (xy 539.75 153.67)
 		)
 		(stroke
@@ -15171,6 +16314,16 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 303.53) (xy 546.1 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd932820-07a4-4d05-b7d1-9d1973cbe1a6")
+	)
+	(wire
+		(pts
 			(xy 251.46 292.1) (xy 312.42 292.1)
 		)
 		(stroke
@@ -15178,6 +16331,16 @@
 			(type default)
 		)
 		(uuid "ceb97143-0066-4096-999b-199196b1ac4b")
+	)
+	(wire
+		(pts
+			(xy 444.5 382.27) (xy 444.5 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbef542-9743-4677-b5eb-30aff2014d7a")
 	)
 	(wire
 		(pts
@@ -15261,7 +16424,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 133.35) (xy 361.95 133.35)
+			(xy 266.7 133.35) (xy 276.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -15441,6 +16604,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 382.27) (xy 430.53 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1d4fbb-b3e7-48f0-a9b2-8d309203bc3c")
+	)
+	(wire
+		(pts
 			(xy 533.4 241.3) (xy 539.75 241.3)
 		)
 		(stroke
@@ -15478,6 +16651,16 @@
 			(type default)
 		)
 		(uuid "dd526d3e-82b5-4741-bf3b-3942201d731a")
+	)
+	(wire
+		(pts
+			(xy 430.53 285.75) (xy 430.53 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5440a8-3edd-48bb-b1e4-da393fad9e74")
 	)
 	(wire
 		(pts
@@ -15568,6 +16751,26 @@
 			(type default)
 		)
 		(uuid "e3379209-e3e8-492b-b79d-a16b3be99844")
+	)
+	(wire
+		(pts
+			(xy 330.2 392.43) (xy 369.57 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3563d4b-ddfb-4f9c-b124-6718730983a6")
+	)
+	(wire
+		(pts
+			(xy 394.97 389.89) (xy 412.75 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3618945-8293-48fe-a6e8-780174d777ba")
 	)
 	(wire
 		(pts
@@ -15821,7 +17024,17 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 92.71) (xy 339.09 92.71)
+			(xy 359.41 387.35) (xy 369.57 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee45ec68-e8d5-4f62-9677-9bf0a9a25aac")
+	)
+	(wire
+		(pts
+			(xy 283.21 92.71) (xy 309.88 92.71)
 		)
 		(stroke
 			(width 0)
@@ -15851,7 +17064,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 283.21) (xy 436.88 283.21)
+			(xy 411.48 283.21) (xy 430.53 283.21)
 		)
 		(stroke
 			(width 0)
@@ -15978,6 +17191,16 @@
 			(type default)
 		)
 		(uuid "f41af6a3-9454-43df-be0f-acbda87a67ef")
+	)
+	(wire
+		(pts
+			(xy 266.7 128.27) (xy 266.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44a5e5e-2e41-4606-ab69-5810c83b50ce")
 	)
 	(wire
 		(pts
@@ -16249,6 +17472,16 @@
 		)
 		(uuid "3a247afe-c1e2-4da3-93ea-edbaa5afc8f7")
 	)
+	(label "DDRVREF"
+		(at 411.48 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b343b27-6e4c-45e4-b686-ccc4718749fd")
+	)
 	(label "MGTAVTT"
 		(at 237.49 265.43 0)
 		(effects
@@ -16268,6 +17501,16 @@
 			(justify left bottom)
 		)
 		(uuid "5a7e7692-a4c1-4d63-bc89-8a0a5e29fcba")
+	)
+	(label "PS_MIO_VREF1_502"
+		(at 274.32 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ce1b213-8e55-45e7-8a7e-49335b1a698a")
 	)
 	(label "3V3_RAIL_MAIN"
 		(at 137.795 153.67 0)
@@ -16339,6 +17582,16 @@
 		)
 		(uuid "b1e0b61d-96e9-4db5-8234-9326aab5d2ba")
 	)
+	(label "PS_MIO_VREF_501"
+		(at 548.64 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b330273d-2593-4eff-90ab-c311630e834c")
+	)
 	(label "1V_RAIL_A"
 		(at 254 143.51 0)
 		(effects
@@ -16348,6 +17601,16 @@
 			(justify left bottom)
 		)
 		(uuid "bfc98331-4358-472e-97a3-20072a18ae73")
+	)
+	(label "PS_MIO_VREF0_502"
+		(at 274.32 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2fc400a-2716-4fa4-9929-0cd5f68c455a")
 	)
 	(label "1V8_RAIL_A"
 		(at 254 133.35 0)
@@ -16418,6 +17681,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1417694-cb37-400b-8c50-715f3af97c1f")
+	)
+	(label "PS_MIO_VREF_501"
+		(at 411.48 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea48cd29-7569-4a1b-ad26-6e521e051296")
 	)
 	(label "VCCO_RAIL_C"
 		(at 254 77.47 0)
@@ -16636,6 +17909,94 @@
 			(justify right)
 		)
 		(uuid "eea8a9b2-9776-4eb6-892d-72742e1c0d63")
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
+		(at 444.5 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00773eff-4286-40ae-8a0e-461bfb766823")
+		(property "Reference" "C149"
+			(at 448.31 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 448.31 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 435.61 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 444.5 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 449.58 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 449.58 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b90c783b-2683-4e30-ace2-f0a8d31550bf")
+		)
+		(pin "2"
+			(uuid "bc524f62-8dff-4c3f-827e-e5f2ad4e5f3f")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C149")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -16927,7 +18288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 370.84 135.89 0)
 			(effects
 				(font
@@ -17033,7 +18394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 411.48 295.91 0)
 			(effects
 				(font
@@ -17204,7 +18565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 370.84 318.77 0)
 			(effects
 				(font
@@ -17375,7 +18736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 74.93 0)
 			(effects
 				(font
@@ -17455,6 +18816,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 457.2 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109a7ae1-d67a-4fc0-8534-c51d062cede3")
+		(property "Reference" "#PWR0191"
+			(at 457.2 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 457.2 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 457.2 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5dbb85-7aa7-49d7-b18d-5bef90184e03")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17513,6 +18939,71 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 309.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a9b0d4-311a-4497-971d-11b8d7e1d137")
+		(property "Reference" "#PWR0140"
+			(at 309.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_DDR"
+			(at 309.88 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 309.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f89b3bf0-167c-47e2-81e0-34d029abe890")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -17611,7 +19102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 90.17 0)
 			(effects
 				(font
@@ -17820,6 +19311,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 419.1 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1955b672-2449-4a8f-8f7f-f2e7228621ec")
+		(property "Reference" "#PWR0195"
+			(at 419.1 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 419.1 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 419.1 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d298778d-d4cf-4348-9481-4e8f7d95e4af")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 417.83 269.24 0)
 		(unit 1)
@@ -17847,7 +19403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 408.94 262.89 0)
 			(effects
 				(font
@@ -17920,6 +19476,94 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
+		(at 347.98 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bdb18a3-8ea7-4844-a4da-a56efc59a55b")
+		(property "Reference" "C153"
+			(at 351.79 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 351.79 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 339.09 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 347.98 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 353.06 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 353.06 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37808ab6-9111-4702-b69a-656697166580")
+		)
+		(pin "2"
+			(uuid "a96ceb5c-fe06-469d-9ce5-d166569b2c0e")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -18209,6 +19853,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 382.27 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21d2a62d-62b3-4367-83fd-e3b43aea49e2")
+		(property "Reference" "#PWR0193"
+			(at 382.27 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_DDR"
+			(at 382.27 364.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 382.27 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd2840ea-be81-43b6-8269-d8d43c49df2e")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 421.64 48.26 0)
 		(unit 1)
@@ -18236,7 +19945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 412.75 41.91 0)
 			(effects
 				(font
@@ -18342,7 +20051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 392.43 59.69 0)
 			(effects
 				(font
@@ -18643,7 +20352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 412.75 74.93 0)
 			(effects
 				(font
@@ -18749,7 +20458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.06 140.97 0)
 			(effects
 				(font
@@ -18852,7 +20561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 279.4 46.228 90)
 			(effects
 				(font
@@ -18889,6 +20598,71 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "FB8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 359.41 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aea60c8-3af9-4bed-9c92-322d8ed29887")
+		(property "Reference" "#PWR0196"
+			(at 359.41 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 359.41 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 359.41 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f83f43f-d669-41c7-a9ae-862f27b39e82")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -19053,7 +20827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 406.4 156.21 0)
 			(effects
 				(font
@@ -19262,6 +21036,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PPA-Pasive:Res")
+		(at 412.75 377.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c5954a-3f32-436d-bb26-5fb3402d73d6")
+		(property "Reference" "R71"
+			(at 410.464 377.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 415.29 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 412.75 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 412.75 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mW"
+			(at 407.67 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "=< 5%"
+			(at 406.4 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cca85b0c-f9fc-4e2b-8021-4833dafb1537")
+		)
+		(pin "1"
+			(uuid "9db7b477-8c2d-47dc-a84c-6d46762fafd7")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 421.64 66.04 0)
 		(unit 1)
@@ -19289,7 +21148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 412.75 59.69 0)
 			(effects
 				(font
@@ -19782,6 +21641,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 457.2 379.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ab4cc52-ae6f-4c1a-affe-df6da666e7c1")
+		(property "Reference" "#PWR0188"
+			(at 457.2 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_VTT"
+			(at 457.2 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 457.2 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa7a765-bc63-4426-8fcc-ac80af0f562b")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 147.32 0)
 		(unit 1)
@@ -19939,7 +21864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.03 262.89 0)
 			(effects
 				(font
@@ -20045,7 +21970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.11 90.17 0)
 			(effects
 				(font
@@ -20255,6 +22180,363 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
+		(at 336.55 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "423e92b9-b322-4d7b-ad9a-30fd2105f85a")
+		(property "Reference" "C154"
+			(at 340.36 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 340.36 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 327.66 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 336.55 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 341.63 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 341.63 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8d4695-fdc2-48cd-8eda-692c2744d6c4")
+		)
+		(pin "2"
+			(uuid "2dcbee1c-aa1a-4f4e-875c-4935a8546113")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS51200DRC")
+		(at 382.27 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4631a511-dc77-453c-b1ea-11e038361995")
+		(property "Reference" "U15"
+			(at 373.38 377.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS51200DRC"
+			(at 382.778 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm"
+			(at 382.27 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps51200.pdf"
+			(at 382.27 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sink and Source DDR Termination Regulator, VSON-10"
+			(at 382.27 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab48894-a81c-4e30-a446-7358fd8b0ecb")
+		)
+		(pin "6"
+			(uuid "cf6db9de-c6cc-4767-a7d8-e9b03c24de65")
+		)
+		(pin "3"
+			(uuid "6d4cddaa-f1dc-4d65-b558-1ba6bdf3d8cd")
+		)
+		(pin "10"
+			(uuid "e2dda38e-ec88-45c9-9fa9-29a1e7004dfe")
+		)
+		(pin "4"
+			(uuid "8eb807a7-08f4-4cb3-8125-ee7b00f1184f")
+		)
+		(pin "11"
+			(uuid "7e6036d1-6c64-4968-81a2-806160d0964d")
+		)
+		(pin "9"
+			(uuid "3a509241-d157-47b8-a656-77e4053d6a63")
+		)
+		(pin "2"
+			(uuid "6529508c-d6da-4700-b96b-577dab45bbcb")
+		)
+		(pin "8"
+			(uuid "80d29ed9-a4df-4452-88b4-6620e046500f")
+		)
+		(pin "7"
+			(uuid "6c012bca-140a-4e7e-a5d8-a558aab57e0c")
+		)
+		(pin "5"
+			(uuid "5510ebc6-0d7d-4b37-8473-a68f2ff3fea4")
+		)
+		(instances
+			(project ""
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
+		(at 430.53 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "479dfefd-58c0-41f4-b2af-d85974af2360")
+		(property "Reference" "C148"
+			(at 434.34 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 434.34 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 421.64 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 430.53 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 435.61 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 435.61 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43510dff-cb5f-4548-8fc1-4dc175efa1d9")
+		)
+		(pin "2"
+			(uuid "9633d095-ea64-4d72-851f-a4c07a65d941")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Res")
+		(at 396.24 375.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48952798-20f5-4ab5-875c-d5345fe00ea7")
+		(property "Reference" "R73"
+			(at 396.24 373.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 400.812 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 396.24 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 396.24 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mW"
+			(at 396.24 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "=< 5%"
+			(at 396.24 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33f38ad4-50d5-47a4-a8dd-c2484813b349")
+		)
+		(pin "1"
+			(uuid "bb021835-bdf8-4e41-b6b6-6974fb44de2d")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
 		(at 396.24 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20281,7 +22563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 387.35 262.89 0)
 			(effects
 				(font
@@ -20491,6 +22773,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 430.53 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba143cc-32b7-4fba-a084-3127563e8382")
+		(property "Reference" "#PWR0189"
+			(at 430.53 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 430.53 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 430.53 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e631bea4-5104-4cb6-b213-9816732ca902")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 349.25 328.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20579,7 +22926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 279.4 160.528 90)
 			(effects
 				(font
@@ -20649,7 +22996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.11 41.91 0)
 			(effects
 				(font
@@ -20728,6 +23075,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 382.27 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "513d82ba-061b-4d1d-9785-f2356d84c702")
+		(property "Reference" "#PWR0186"
+			(at 382.27 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bac972c-d87f-40fa-9dbc-241eb552a990")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 394.97 147.32 0)
 		(unit 1)
@@ -20755,7 +23167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 386.08 140.97 0)
 			(effects
 				(font
@@ -21094,6 +23506,179 @@
 		)
 	)
 	(symbol
+		(lib_id "PPA-Pasive:Res")
+		(at 546.1 299.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0ba158-2a52-43e0-be2d-f1e437927601")
+		(property "Reference" "R69"
+			(at 543.814 299.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 548.64 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 546.1 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 546.1 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mW"
+			(at 541.02 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "=< 5%"
+			(at 539.75 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebd2b5cd-f975-43b9-8473-ee5efbfa2d3a")
+		)
+		(pin "1"
+			(uuid "9832cd4e-3662-4fe5-b1fc-6d5b75a46b2f")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
+		(at 359.41 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5c2fdd-c7ea-4ab2-9fb0-1f6dec5af2ff")
+		(property "Reference" "C152"
+			(at 363.22 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 363.22 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 350.52 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 359.41 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 364.49 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 364.49 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef41698-5a51-4d98-b4f9-e65220ea4e05")
+		)
+		(pin "2"
+			(uuid "334b7bca-4974-415d-a1ac-73d1d272899f")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 373.38 151.13 0)
 		(unit 1)
@@ -21316,7 +23901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 135.89 0)
 			(effects
 				(font
@@ -21487,7 +24072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 360.68 318.77 0)
 			(effects
 				(font
@@ -21593,7 +24178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 412.75 341.63 0)
 			(effects
 				(font
@@ -21803,6 +24388,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 412.75 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f06724c-97d7-4c64-8768-53ca6fe21025")
+		(property "Reference" "#PWR0194"
+			(at 412.75 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 412.75 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 412.75 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f87a997-1da0-44dd-b211-c10bdc0d56dc")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 400.05 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21959,7 +24610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 90.17 0)
 			(effects
 				(font
@@ -22032,6 +24683,221 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Res")
+		(at 412.75 398.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74ea4710-a26b-402a-bc30-ef66d2247ecb")
+		(property "Reference" "R72"
+			(at 410.464 399.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 412.75 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 412.75 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mW"
+			(at 407.67 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "=< 5%"
+			(at 406.4 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1414d53f-de5e-4d70-848b-121df7e07fbb")
+		)
+		(pin "1"
+			(uuid "c4c70fc7-663d-4c4c-8983-d29500b14bd2")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 400.05 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7546d7f6-46f3-4397-b55a-99e77e2069e3")
+		(property "Reference" "#PWR0187"
+			(at 400.05 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 400.05 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 400.05 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec7d69ff-3b8b-4fdf-9615-c8083ecb94e8")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "757fac58-415b-4035-9b8f-ab752163f45d")
+		(property "Reference" "#PWR0197"
+			(at 347.98 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b08abfa-1c51-4155-886e-29ea4857ac64")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -23591,7 +26457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 59.69 0)
 			(effects
 				(font
@@ -23697,7 +26563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 402.59 59.69 0)
 			(effects
 				(font
@@ -23803,7 +26669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.11 59.69 0)
 			(effects
 				(font
@@ -23974,7 +26840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 59.69 0)
 			(effects
 				(font
@@ -24168,7 +27034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.03 250.19 0)
 			(effects
 				(font
@@ -24274,7 +27140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.11 74.93 0)
 			(effects
 				(font
@@ -24353,6 +27219,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 546.1 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c25a2b-b932-4bcd-b2a7-c3fdfc2f01db")
+		(property "Reference" "#PWR0185"
+			(at 546.1 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 546.1 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 546.1 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da83d16-a816-4f9b-a0ce-69ec657000f9")
+		)
+		(instances
+			(project ""
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 400.05 302.26 0)
 		(unit 1)
@@ -24380,7 +27312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 391.16 295.91 0)
 			(effects
 				(font
@@ -24518,6 +27450,71 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85d39af6-e68f-48f4-94a0-ac68e4119700")
+		(property "Reference" "#PWR0198"
+			(at 336.55 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95613860-0583-43d7-b34b-874a2aa15645")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -24691,7 +27688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 393.7 135.89 0)
 			(effects
 				(font
@@ -24900,6 +27897,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PPA-Pasive:Res")
+		(at 546.1 309.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f858190-d8ef-4269-a96c-46a1d3e61963")
+		(property "Reference" "R70"
+			(at 543.814 310.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 548.64 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 546.1 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 546.1 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "250mW"
+			(at 541.02 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "=< 5%"
+			(at 539.75 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71f14eb9-4043-43f4-897a-acd23b73e608")
+		)
+		(pin "1"
+			(uuid "131039bf-0abb-44f8-8e11-11c6b2cbee89")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 410.21 325.12 0)
 		(unit 1)
@@ -24927,7 +28009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 401.32 318.77 0)
 			(effects
 				(font
@@ -26624,7 +29706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -26768,6 +29850,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 276.86 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ddb91e-03e1-4b0d-9ca5-17060a8a02ad")
+		(property "Reference" "#PWR0207"
+			(at 276.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_MIO"
+			(at 276.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62290e42-a457-4162-af8d-636009e29215")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 386.08 273.05 0)
 		(unit 1)
@@ -26899,6 +30047,94 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
+		(at 419.1 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97e26d2d-4603-4703-b834-da5d796cdf4c")
+		(property "Reference" "C151"
+			(at 422.91 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 422.91 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 410.21 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 410.21 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 419.1 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 424.18 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 424.18 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9566f965-bb8a-4616-8edd-121a997f45fc")
+		)
+		(pin "2"
+			(uuid "b43c00a3-5df9-4e7f-a57a-fce903c8217a")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
 		(at 391.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26925,7 +30161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 74.93 0)
 			(effects
 				(font
@@ -27151,6 +30387,72 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 266.7 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0e0498-9761-4336-80d2-8115e1f5a5eb")
+		(property "Reference" "#PWR0206"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 266.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cb55e32-521d-4036-bf12-5f61261887af")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -28775,7 +32077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 392.43 41.91 0)
 			(effects
 				(font
@@ -28881,7 +32183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 340.36 90.17 0)
 			(effects
 				(font
@@ -28987,7 +32289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 391.16 318.77 0)
 			(effects
 				(font
@@ -29093,7 +32395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 350.52 318.77 0)
 			(effects
 				(font
@@ -29199,7 +32501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 356.87 250.19 0)
 			(effects
 				(font
@@ -29505,7 +32807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 279.4 79.248 90)
 			(effects
 				(font
@@ -29575,7 +32877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 392.43 90.17 0)
 			(effects
 				(font
@@ -29719,6 +33021,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 546.1 294.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b168bdf0-81f2-49db-a5f7-f29e28e28bd0")
+		(property "Reference" "#PWR0184"
+			(at 546.1 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_MIO"
+			(at 546.1 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 546.1 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f881fdd3-c8a8-4e22-9063-61375db7804a")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PPA-Pasive:Cap")
 		(at 386.08 269.24 0)
 		(unit 1)
@@ -29746,7 +33114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 377.19 262.89 0)
 			(effects
 				(font
@@ -30135,7 +33503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 411.48 318.77 0)
 			(effects
 				(font
@@ -30524,7 +33892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 340.36 341.63 0)
 			(effects
 				(font
@@ -30677,7 +34045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 403.86 135.89 0)
 			(effects
 				(font
@@ -30986,7 +34354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.51 262.89 0)
 			(effects
 				(font
@@ -31268,7 +34636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 382.27 41.91 0)
 			(effects
 				(font
@@ -31436,7 +34804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 247.65 293.878 90)
 			(effects
 				(font
@@ -31506,7 +34874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 402.59 74.93 0)
 			(effects
 				(font
@@ -31612,7 +34980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 364.49 140.97 0)
 			(effects
 				(font
@@ -31718,7 +35086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 377.19 250.19 0)
 			(effects
 				(font
@@ -31886,7 +35254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 279.4 94.488 90)
 			(effects
 				(font
@@ -31923,6 +35291,137 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "FB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 444.5 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce359841-2302-4d6d-8c0a-d5aafe8a09e8")
+		(property "Reference" "#PWR0190"
+			(at 444.5 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 444.5 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 444.5 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 444.5 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dcd8b04-8dc3-4a42-a4da-8ed6714d28b0")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 331.47 379.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0b5651-b071-4311-a771-0a5a89b918bb")
+		(property "Reference" "#PWR0205"
+			(at 331.47 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 331.47 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 331.47 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48cf2d53-e37c-4ae8-b0ce-b98fb4013755")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -32021,7 +35520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 402.59 90.17 0)
 			(effects
 				(font
@@ -32094,6 +35593,94 @@
 			(project "TRX055.01.01.PB.00.00"
 				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
+		(at 457.2 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b8a70c-bdf3-4cf2-821e-4254c52d6fc9")
+		(property "Reference" "C150"
+			(at 461.01 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 461.01 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 448.31 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 457.2 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 462.28 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 462.28 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f36c792-4c54-4e7d-b346-c921d92bd709")
+		)
+		(pin "2"
+			(uuid "457adc8d-cba6-4069-b59e-f2c4f8792431")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -32257,7 +35844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 318.77 0)
 			(effects
 				(font
@@ -32363,7 +35950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381 295.91 0)
 			(effects
 				(font
@@ -32622,7 +36209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 392.43 74.93 0)
 			(effects
 				(font
@@ -34254,7 +37841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 387.35 250.19 0)
 			(effects
 				(font
@@ -34360,7 +37947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 351.79 90.17 0)
 			(effects
 				(font
@@ -34466,7 +38053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 412.75 90.17 0)
 			(effects
 				(font
@@ -34572,7 +38159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 406.4 140.97 0)
 			(effects
 				(font
@@ -34652,6 +38239,94 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
+		(at 400.05 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4512304-c25d-4f35-b8f9-3c9b31e747e7")
+		(property "Reference" "C147"
+			(at 403.86 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 403.86 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 391.16 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor"
+			(at 400.05 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 405.13 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "X7R"
+			(at 405.13 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8217113f-64b1-430d-a619-d526d60f264a")
+		)
+		(pin "2"
+			(uuid "5052007b-b001-4eed-a969-337092146f91")
+		)
+		(instances
+			(project "TRX055.01.01.PB.00.00"
+				(path "/6d8e09de-b00a-46e6-b61c-e43c092be287/4166cae5-8deb-4e8f-b2de-7cdde4d1a46f"
+					(reference "C147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PPA-Pasive:Cap")
 		(at 339.09 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34678,7 +38353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 330.2 90.17 0)
 			(effects
 				(font
@@ -34924,7 +38599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 375.92 140.97 0)
 			(effects
 				(font
@@ -35161,7 +38836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.95 41.91 0)
 			(effects
 				(font
@@ -35267,7 +38942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 340.36 318.77 0)
 			(effects
 				(font
@@ -35373,7 +39048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 402.59 41.91 0)
 			(effects
 				(font
@@ -35476,7 +39151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 279.4 64.008 90)
 			(effects
 				(font
@@ -35741,7 +39416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 396.24 140.97 0)
 			(effects
 				(font
@@ -35912,7 +39587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.51 250.19 0)
 			(effects
 				(font
