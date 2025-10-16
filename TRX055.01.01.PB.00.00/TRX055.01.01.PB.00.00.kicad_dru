@@ -3,3 +3,17 @@
   (condition "A.NetName == '/ZynqDDR/DDR_DQ0'")
   (constraint length (min 27.9mm) (max 28.1mm))
 )
+
+
+(rule "DIFF_on_Internal layers"
+    (layer inner)
+    (condition "A.inDiffPair('*')")
+    (constraint diff_pair_gap (min 0.2030mm) (opt 0.2032mm) (max 0.2036mm))
+    (constraint track_width (min 0.1050mm) (opt 0.1064mm) (max 0.1070mm)))
+
+
+(rule "DIFF_inner"
+    (layer inner)
+    (condition "A.NetClass == 'IMP100_DIFF'")
+    (constraint diff_pair_gap (min 0.2032mm) (opt 0.2032mm) (max 0.8mm))
+    (constraint track_width (min 0.1050mm) (opt 0.1064mm) (max 0.1070mm)))

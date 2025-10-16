@@ -9341,7 +9341,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 119.38 93.98)
+			(xy 80.01 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9351,7 +9351,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 214.63 86.36)
+			(xy 210.82 86.36) (xy 226.06 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9371,7 +9371,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 214.63 93.98)
+			(xy 210.82 93.98) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9381,7 +9381,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 184.15 88.9)
+			(xy 226.06 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9391,7 +9391,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 81.28) (xy 184.15 81.28)
+			(xy 226.06 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9401,7 +9401,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 119.38 114.3)
+			(xy 99.06 114.3) (xy 119.38 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9411,7 +9411,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 78.74) (xy 214.63 78.74)
+			(xy 210.82 78.74) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9421,7 +9421,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 86.36) (xy 119.38 86.36)
+			(xy 80.01 86.36) (xy 119.38 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9431,7 +9431,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 118.11) (xy 88.9 118.11)
+			(xy 60.96 118.11) (xy 72.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9441,7 +9441,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 172.72 88.9)
+			(xy 187.96 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9451,7 +9451,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 172.72 93.98)
+			(xy 203.2 93.98) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9461,7 +9461,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 104.14) (xy 119.38 104.14)
+			(xy 99.06 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9471,7 +9471,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 111.76) (xy 88.9 111.76)
+			(xy 60.96 111.76) (xy 72.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9481,7 +9481,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 107.95 120.65)
+			(xy 60.96 120.65) (xy 91.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9491,7 +9491,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 107.95 104.14)
+			(xy 60.96 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9501,7 +9501,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 184.15 96.52)
+			(xy 226.06 96.52) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9511,7 +9511,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 101.6) (xy 172.72 101.6)
+			(xy 203.2 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9521,7 +9521,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 184.15 104.14)
+			(xy 226.06 104.14) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9551,7 +9551,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 119.38 101.6)
+			(xy 80.01 101.6) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9561,7 +9561,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 172.72 96.52)
+			(xy 187.96 96.52) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9581,7 +9581,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 172.72 104.14)
+			(xy 187.96 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9591,7 +9591,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 101.6) (xy 214.63 101.6)
+			(xy 210.82 101.6) (xy 226.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9601,7 +9601,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 107.95 81.28)
+			(xy 60.96 81.28) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9611,7 +9611,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 119.38 78.74)
+			(xy 80.01 78.74) (xy 119.38 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9631,7 +9631,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 101.6) (xy 88.9 101.6)
+			(xy 60.96 101.6) (xy 72.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9641,7 +9641,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 88.9 78.74)
+			(xy 60.96 78.74) (xy 72.39 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9651,7 +9651,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 119.38 118.11)
+			(xy 80.01 118.11) (xy 119.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9661,7 +9661,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 81.28) (xy 172.72 81.28)
+			(xy 187.96 81.28) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9671,7 +9671,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 107.95 96.52)
+			(xy 60.96 96.52) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9691,7 +9691,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 88.9) (xy 107.95 88.9)
+			(xy 60.96 88.9) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9701,7 +9701,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 86.36) (xy 172.72 86.36)
+			(xy 203.2 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9721,7 +9721,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 119.38 96.52)
+			(xy 99.06 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9731,7 +9731,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 119.38 120.65)
+			(xy 99.06 120.65) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9741,7 +9741,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 81.28) (xy 119.38 81.28)
+			(xy 99.06 81.28) (xy 119.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9751,7 +9751,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 119.38 88.9)
+			(xy 99.06 88.9) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9761,7 +9761,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 78.74) (xy 172.72 78.74)
+			(xy 203.2 78.74) (xy 172.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9771,7 +9771,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 111.76) (xy 119.38 111.76)
+			(xy 80.01 111.76) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9781,7 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 88.9 93.98)
+			(xy 60.96 93.98) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9791,7 +9791,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 107.95 114.3)
+			(xy 60.96 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9801,7 +9801,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 88.9 86.36)
+			(xy 60.96 86.36) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9819,6 +9819,16 @@
 		)
 		(uuid "ee984cf3-a5e3-4afb-ae1a-ecb216fc1014")
 	)
+	(label "RX1_P"
+		(at 106.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09c292b2-7d6e-4102-b658-7c84448d710b")
+	)
 	(label "JTAG_TDCK"
 		(at 69.85 167.64 0)
 		(effects
@@ -9828,6 +9838,36 @@
 			(justify left bottom)
 		)
 		(uuid "0b6b1f55-43cb-4ed9-9bc9-c8b83d97d250")
+	)
+	(label "TX0_P"
+		(at 175.26 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14088f56-72df-4da3-baea-91a39ee57c22")
+	)
+	(label "RX0_P"
+		(at 106.68 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "217caa3d-a6f7-4784-8fa7-ce47ccbc3f43")
+	)
+	(label "TX1_P"
+		(at 175.26 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f96f594-b056-45eb-b925-41115922aeb0")
 	)
 	(label "PS_POR_B"
 		(at 69.85 160.02 0)
@@ -9839,6 +9879,56 @@
 		)
 		(uuid "44cd0c65-be16-4ccb-a43f-6942b2b60645")
 	)
+	(label "TX3_P"
+		(at 175.26 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47f1af9f-e737-47c7-87c6-390ff6107d11")
+	)
+	(label "REFCLK0_N"
+		(at 104.14 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e3e2f25-84cd-45f1-a09b-922c64be8b32")
+	)
+	(label "TX0_N"
+		(at 175.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e49fae5-2162-4624-aee3-ed2aea021102")
+	)
+	(label "RX1_N"
+		(at 106.68 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c06555-78a3-41b0-92a9-9d080e8a0ab2")
+	)
+	(label "TX2_N"
+		(at 175.26 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65279661-c1c8-43d2-9234-e868f8c67efd")
+	)
 	(label "PS_SRST"
 		(at 69.85 162.56 0)
 		(effects
@@ -9848,6 +9938,26 @@
 			(justify left bottom)
 		)
 		(uuid "6dee4a66-83ed-40e3-be95-a5bd02bff894")
+	)
+	(label "REFCLK1_N"
+		(at 104.14 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7973f5c4-abde-4fcb-94aa-b9ee4465197a")
+	)
+	(label "TX3_N"
+		(at 175.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e8d3267-9070-4e48-8907-223a6e8b705a")
 	)
 	(label "PS_CLK"
 		(at 69.85 157.48 0)
@@ -9859,6 +9969,36 @@
 		)
 		(uuid "934b419e-46b0-4328-a8f9-b7e75f1d2c20")
 	)
+	(label "RX3_P"
+		(at 106.68 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af08ca12-ac19-4aa2-8566-6c8fb408342d")
+	)
+	(label "REFCLK0_P"
+		(at 104.14 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba615f36-4cb2-4c48-80f4-aebeb40474a0")
+	)
+	(label "RX0_N"
+		(at 106.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc86567-468f-4b7a-b85c-93cd2d9524a7")
+	)
 	(label "JTAG_TDCK"
 		(at 69.85 154.94 0)
 		(effects
@@ -9868,6 +10008,56 @@
 			(justify left bottom)
 		)
 		(uuid "cdb79b92-7630-4cfb-88c7-09bc7579c5a0")
+	)
+	(label "TX1_N"
+		(at 175.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d48aca83-ed80-4f48-94ad-83bae0566026")
+	)
+	(label "REFCLK1_P"
+		(at 104.14 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7794b96-d30e-45ef-9177-5bde025449cb")
+	)
+	(label "RX3_N"
+		(at 106.68 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d92961c9-74b0-4702-ba1a-67dbd2f4df1c")
+	)
+	(label "TX2_P"
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaee4703-9d3f-4407-99d0-8b3a8d53b638")
+	)
+	(label "RX2_P"
+		(at 106.68 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec86181d-d3bd-458f-884e-ca37cd3bd65f")
 	)
 	(label "JTAG_TDMS"
 		(at 69.85 172.72 0)
@@ -9899,9 +10089,19 @@
 		)
 		(uuid "fca97585-0048-481c-b7b1-0ae0e19d53f0")
 	)
+	(label "RX2_N"
+		(at 106.68 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd8a0ab5-08f1-473d-a556-cc824f4556a1")
+	)
 	(hierarchical_label "GTP_TX2_N"
 		(shape input)
-		(at 214.63 96.52 0)
+		(at 226.06 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9912,7 +10112,7 @@
 	)
 	(hierarchical_label "GTP_REF_CLK1_P"
 		(shape input)
-		(at 77.47 118.11 180)
+		(at 60.96 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9923,7 +10123,7 @@
 	)
 	(hierarchical_label "GTP_RX2_N"
 		(shape input)
-		(at 77.47 96.52 180)
+		(at 60.96 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9934,7 +10134,7 @@
 	)
 	(hierarchical_label "GTP_RX3_P"
 		(shape input)
-		(at 77.47 101.6 180)
+		(at 60.96 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9945,7 +10145,7 @@
 	)
 	(hierarchical_label "GTP_RX1_P"
 		(shape input)
-		(at 77.47 86.36 180)
+		(at 60.96 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9956,7 +10156,7 @@
 	)
 	(hierarchical_label "GTP_REF_CLK0_N"
 		(shape input)
-		(at 77.47 114.3 180)
+		(at 60.96 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9967,7 +10167,7 @@
 	)
 	(hierarchical_label "GTP_TX2_P"
 		(shape input)
-		(at 214.63 93.98 0)
+		(at 226.06 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9978,7 +10178,7 @@
 	)
 	(hierarchical_label "GTP_REF_CLK0_P"
 		(shape input)
-		(at 77.47 111.76 180)
+		(at 60.96 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9989,7 +10189,7 @@
 	)
 	(hierarchical_label "GTP_REF_CLK1_N"
 		(shape input)
-		(at 77.47 120.65 180)
+		(at 60.96 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10000,7 +10200,7 @@
 	)
 	(hierarchical_label "GTP_TX1_N"
 		(shape input)
-		(at 214.63 88.9 0)
+		(at 226.06 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10011,7 +10211,7 @@
 	)
 	(hierarchical_label "GTP_RX3_N"
 		(shape input)
-		(at 77.47 104.14 180)
+		(at 60.96 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10022,7 +10222,7 @@
 	)
 	(hierarchical_label "GTP_RX0_N"
 		(shape input)
-		(at 77.47 81.28 180)
+		(at 60.96 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10033,7 +10233,7 @@
 	)
 	(hierarchical_label "GTP_TX0_N"
 		(shape input)
-		(at 214.63 81.28 0)
+		(at 226.06 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10044,7 +10244,7 @@
 	)
 	(hierarchical_label "GTP_TX0_P"
 		(shape input)
-		(at 214.63 78.74 0)
+		(at 226.06 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10055,7 +10255,7 @@
 	)
 	(hierarchical_label "GTP_TX3_N"
 		(shape input)
-		(at 214.63 104.14 0)
+		(at 226.06 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10066,7 +10266,7 @@
 	)
 	(hierarchical_label "GTP_RX2_P"
 		(shape input)
-		(at 77.47 93.98 180)
+		(at 60.96 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10077,7 +10277,7 @@
 	)
 	(hierarchical_label "GTP_TX3_P"
 		(shape input)
-		(at 214.63 101.6 0)
+		(at 226.06 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10088,7 +10288,7 @@
 	)
 	(hierarchical_label "GTP_TX1_P"
 		(shape input)
-		(at 214.63 86.36 0)
+		(at 226.06 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10099,7 +10299,7 @@
 	)
 	(hierarchical_label "GTP_RX1_N"
 		(shape input)
-		(at 77.47 88.9 180)
+		(at 60.96 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10110,7 +10310,7 @@
 	)
 	(hierarchical_label "GTP_RX0_P"
 		(shape input)
-		(at 77.47 78.74 180)
+		(at 60.96 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10121,7 +10321,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 180.34 81.28 270)
+		(at 191.77 81.28 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10130,7 +10330,7 @@
 		(dnp no)
 		(uuid "08f59b89-03ff-49c6-82d5-3ae23ad539b3")
 		(property "Reference" "C97"
-			(at 186.182 80.01 90)
+			(at 197.612 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,15 +10338,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 176.784 82.804 90)
+			(at 188.214 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 198.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 90.17 0)
+			(at 198.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10364,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 180.34 81.28 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10373,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 180.34 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10382,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 182.88 76.2 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10391,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 180.34 81.28 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10400,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 180.34 81.28 0)
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 191.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10225,7 +10479,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 195.58 93.98 270)
+		(at 207.01 93.98 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10234,7 +10488,7 @@
 		(dnp no)
 		(uuid "14d44ba5-72ba-42a3-8336-ceb696fbd847")
 		(property "Reference" "C101"
-			(at 201.422 92.71 90)
+			(at 212.852 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,15 +10496,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 192.024 95.504 90)
+			(at 203.454 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 102.87 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +10522,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 195.58 93.98 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10531,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 195.58 88.9 0)
+			(at 207.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,7 +10540,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 198.12 88.9 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10549,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 195.58 93.98 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10558,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 195.58 93.98 0)
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 207.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 207.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 207.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 207.01 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,15 +10645,15 @@
 		(dnp no)
 		(uuid "31a06c16-b025-482d-9e74-55aa4c9ba67d")
 		(property "Reference" "U1"
-			(at 103.632 72.136 0)
+			(at 134.366 72.898 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "XC7Z015-1CLG485I"
-			(at 112.268 75.438 0)
+		(property "Value" "XC7Z015-2CLG485I"
+			(at 146.304 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10381,7 +10689,52 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1522056"
+		(property "LCSC Part Name" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1522056"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -11853,7 +12206,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 195.58 101.6 270)
+		(at 207.01 101.6 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11862,7 +12215,7 @@
 		(dnp no)
 		(uuid "4bf89b6d-d244-4b31-943f-d62db5f4d5dc")
 		(property "Reference" "C103"
-			(at 201.422 100.33 90)
+			(at 212.852 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,15 +12223,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 192.024 103.124 90)
+			(at 203.454 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 110.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +12240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 110.49 0)
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +12249,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 195.58 101.6 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +12258,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 195.58 96.52 0)
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +12267,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 198.12 96.52 0)
+			(at 209.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +12276,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 195.58 101.6 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12285,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 195.58 101.6 0)
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 207.01 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 207.01 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 207.01 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +12364,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 101.6 90)
+		(at 76.2 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11965,7 +12372,7 @@
 		(dnp no)
 		(uuid "509af1e0-cb9d-417f-8e42-2f507205d947")
 		(property "Reference" "C94"
-			(at 86.868 100.33 90)
+			(at 70.358 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,15 +12380,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 103.124 90)
+			(at 79.756 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 110.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 110.49 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12406,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 101.6 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12415,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 96.52 0)
+			(at 76.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +12424,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 96.52 0)
+			(at 73.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12433,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 101.6 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12442,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 101.6 0)
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12521,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 180.34 88.9 270)
+		(at 191.77 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12069,7 +12530,7 @@
 		(dnp no)
 		(uuid "5a3d0151-e0fe-4681-9663-31c80da72350")
 		(property "Reference" "C98"
-			(at 186.182 87.63 90)
+			(at 197.612 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,15 +12538,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 176.784 90.424 90)
+			(at 188.214 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 97.79 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +12555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 97.79 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12564,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 180.34 88.9 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +12573,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 180.34 83.82 0)
+			(at 191.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +12582,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 182.88 83.82 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +12591,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 180.34 88.9 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12600,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 180.34 88.9 0)
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 191.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 191.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 191.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 191.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 191.77 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,7 +12679,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 78.74 90)
+		(at 76.2 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12172,7 +12687,7 @@
 		(dnp no)
 		(uuid "7a881a11-6a37-4e65-9d24-430563cc636e")
 		(property "Reference" "C90"
-			(at 86.868 77.47 90)
+			(at 70.358 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,15 +12695,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 80.264 90)
+			(at 79.756 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 87.63 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,7 +12712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 87.63 0)
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,7 +12721,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 78.74 0)
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,7 +12730,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 73.66 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,7 +12739,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 73.66 0)
+			(at 73.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +12748,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 78.74 0)
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12757,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 78.74 0)
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12836,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 195.58 78.74 270)
+		(at 207.01 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12276,7 +12845,7 @@
 		(dnp no)
 		(uuid "7cc1d332-2407-4070-a9bc-5b2be4755da4")
 		(property "Reference" "C96"
-			(at 201.422 77.47 90)
+			(at 212.852 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,15 +12853,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 192.024 80.264 90)
+			(at 203.454 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 87.63 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 213.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12301,7 +12870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 87.63 0)
+			(at 213.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +12879,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 195.58 78.74 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12888,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 195.58 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12897,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 198.12 73.66 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12906,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 195.58 78.74 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,7 +12915,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 195.58 78.74 0)
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 207.01 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 207.01 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12994,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 88.9 90)
+		(at 95.25 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12379,7 +13002,7 @@
 		(dnp no)
 		(uuid "849e21f0-247f-40b9-82d2-322f7d07fda4")
 		(property "Reference" "C89"
-			(at 105.918 87.63 90)
+			(at 89.408 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,15 +13010,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 115.316 90.424 90)
+			(at 98.806 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 97.79 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +13027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 97.79 0)
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +13036,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 88.9 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +13045,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 83.82 0)
+			(at 95.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +13054,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +13063,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 88.9 0)
+			(at 95.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +13072,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 88.9 0)
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +13151,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 195.58 86.36 270)
+		(at 207.01 86.36 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12483,7 +13160,7 @@
 		(dnp no)
 		(uuid "921c4844-8815-4898-adff-ef6af862e86e")
 		(property "Reference" "C99"
-			(at 201.422 85.09 90)
+			(at 212.852 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,15 +13168,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 192.024 87.884 90)
+			(at 203.454 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +13185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 95.25 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +13194,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 195.58 86.36 0)
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +13203,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 195.58 81.28 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +13212,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 198.12 81.28 0)
+			(at 209.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12544,7 +13221,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 195.58 86.36 0)
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12553,7 +13230,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 195.58 86.36 0)
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 207.01 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 207.01 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12578,7 +13309,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 180.34 96.52 270)
+		(at 191.77 96.52 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12587,7 +13318,7 @@
 		(dnp no)
 		(uuid "9b0a8eb9-ca2a-4aec-b9c1-1a30a72a19d0")
 		(property "Reference" "C100"
-			(at 186.182 95.25 90)
+			(at 197.612 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,15 +13326,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 176.784 98.044 90)
+			(at 188.214 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +13343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +13352,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,7 +13361,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 180.34 91.44 0)
+			(at 191.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +13370,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 182.88 91.44 0)
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +13379,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +13388,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 191.77 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 191.77 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 191.77 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 191.77 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 191.77 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,7 +13467,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 104.14 90)
+		(at 95.25 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12690,7 +13475,7 @@
 		(dnp no)
 		(uuid "a1f439e7-754d-4cd8-89b1-825e57a0f263")
 		(property "Reference" "C95"
-			(at 105.918 102.87 90)
+			(at 89.408 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,15 +13483,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 115.316 105.664 90)
+			(at 98.806 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +13500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 113.03 0)
+			(at 88.9 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +13509,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 104.14 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +13518,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 99.06 0)
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +13527,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 99.06 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +13536,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 104.14 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +13545,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 104.14 0)
+			(at 95.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13624,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 118.11 90)
+		(at 76.2 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12793,7 +13632,7 @@
 		(dnp no)
 		(uuid "b3952442-1990-4716-8894-37baf146d97d")
 		(property "Reference" "C105"
-			(at 86.868 116.84 90)
+			(at 70.358 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,15 +13640,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 119.634 90)
+			(at 79.756 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 127 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +13657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +13666,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 118.11 0)
+			(at 76.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +13675,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 113.03 0)
+			(at 76.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,7 +13684,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 113.03 0)
+			(at 73.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,7 +13693,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 118.11 0)
+			(at 76.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +13702,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 118.11 0)
+			(at 76.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,7 +13781,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 96.52 90)
+		(at 95.25 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12896,7 +13789,7 @@
 		(dnp no)
 		(uuid "c1ef1eea-1281-4fd0-90ac-ac62d0b9f0b9")
 		(property "Reference" "C93"
-			(at 105.918 95.25 90)
+			(at 89.408 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,15 +13797,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 115.062 98.044 90)
+			(at 98.552 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +13814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 105.41 0)
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,7 +13823,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 96.52 0)
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,7 +13832,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 91.44 0)
+			(at 95.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +13841,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 91.44 0)
+			(at 92.71 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +13850,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 96.52 0)
+			(at 95.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +13859,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 96.52 0)
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +13938,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 81.28 90)
+		(at 95.25 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12999,7 +13946,7 @@
 		(dnp no)
 		(uuid "ca097e80-5ee9-4e37-8b60-18c60bb5210e")
 		(property "Reference" "C91"
-			(at 105.918 80.01 90)
+			(at 89.408 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13007,15 +13954,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 114.808 82.55 90)
+			(at 98.298 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13024,7 +13971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 90.17 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +13980,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 81.28 0)
+			(at 95.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,7 +13989,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 76.2 0)
+			(at 95.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13051,7 +13998,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 76.2 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +14007,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 81.28 0)
+			(at 95.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13069,7 +14016,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 81.28 0)
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,7 +14095,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 86.36 90)
+		(at 76.2 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13102,7 +14103,7 @@
 		(dnp no)
 		(uuid "cb04e849-fb5e-4728-a02d-f640b94c94c5")
 		(property "Reference" "C88"
-			(at 86.868 85.09 90)
+			(at 70.358 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,15 +14111,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 87.884 90)
+			(at 79.756 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,7 +14128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 95.25 0)
+			(at 69.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,7 +14137,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 86.36 0)
+			(at 76.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +14146,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +14155,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 81.28 0)
+			(at 73.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +14164,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 86.36 0)
+			(at 76.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +14173,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 86.36 0)
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +14252,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 111.76 90)
+		(at 76.2 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13205,7 +14260,7 @@
 		(dnp no)
 		(uuid "d9caa397-70d0-46db-8a3b-05c7ce9ff5cb")
 		(property "Reference" "C104"
-			(at 86.868 110.49 90)
+			(at 70.358 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13213,15 +14268,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 113.284 90)
+			(at 79.756 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 120.65 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +14285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 120.65 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +14294,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +14303,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 106.68 0)
+			(at 76.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +14312,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 106.68 0)
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +14321,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +14330,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 111.76 0)
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +14409,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 120.65 90)
+		(at 95.25 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13308,7 +14417,7 @@
 		(dnp no)
 		(uuid "db45f51f-3d94-4f83-b666-936db722705c")
 		(property "Reference" "C107"
-			(at 105.918 119.38 90)
+			(at 89.408 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,15 +14425,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 115.316 122.174 90)
+			(at 98.806 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +14442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 129.54 0)
+			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +14451,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 120.65 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +14460,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 115.57 0)
+			(at 95.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +14469,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 115.57 0)
+			(at 92.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +14478,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 120.65 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +14487,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 120.65 0)
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +14566,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 111.76 114.3 90)
+		(at 95.25 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13411,7 +14574,7 @@
 		(dnp no)
 		(uuid "ec090ebd-cc2a-4fde-9b3c-4640d707009d")
 		(property "Reference" "C106"
-			(at 105.918 113.03 90)
+			(at 89.408 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,15 +14582,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 115.316 115.824 90)
+			(at 98.806 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 123.19 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +14599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 123.19 0)
+			(at 88.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +14608,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 111.76 114.3 0)
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +14617,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 111.76 109.22 0)
+			(at 95.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +14626,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 109.22 109.22 0)
+			(at 92.71 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +14635,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 111.76 114.3 0)
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13481,7 +14644,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 111.76 114.3 0)
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 95.25 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +14723,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 180.34 104.14 270)
+		(at 191.77 104.14 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13515,7 +14732,7 @@
 		(dnp no)
 		(uuid "f28b0efa-6958-490b-8eaf-6c3237f1043e")
 		(property "Reference" "C102"
-			(at 186.182 102.87 90)
+			(at 197.612 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,15 +14740,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 176.784 105.664 90)
+			(at 188.214 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +14757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 113.03 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,7 +14766,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 180.34 104.14 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +14775,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 180.34 99.06 0)
+			(at 191.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,7 +14784,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 182.88 99.06 0)
+			(at 194.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,7 +14793,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 180.34 104.14 0)
+			(at 191.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +14802,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 180.34 104.14 0)
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 191.77 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,7 +14881,7 @@
 	)
 	(symbol
 		(lib_id "PPA-Pasive:Cap")
-		(at 92.71 93.98 90)
+		(at 76.2 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13618,7 +14889,7 @@
 		(dnp no)
 		(uuid "fc8056fe-ea1e-456a-b382-3fde0c80b85f")
 		(property "Reference" "C92"
-			(at 86.868 92.71 90)
+			(at 70.358 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13626,15 +14897,15 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 96.266 95.504 90)
+			(at 79.756 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.85 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +14914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 102.87 0)
+			(at 69.85 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13652,7 +14923,7 @@
 			)
 		)
 		(property "Description" "capacitor"
-			(at 92.71 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,7 +14932,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 92.71 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +14941,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 90.17 88.9 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +14950,7 @@
 			)
 		)
 		(property "PN" "CL03A104KP3NNNC"
-			(at 92.71 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13688,7 +14959,61 @@
 			)
 		)
 		(property "JLC" "C49062"
-			(at 92.71 93.98 0)
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 76.2 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1581"
+			(at 76.2 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
