@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "b6a76439-893b-4b69-a2e7-46f829064e8b")
 	(paper "A4")
+	(title_block
+		(title "TRNX SDR Carrier board")
+		(date "2025-11-18")
+		(rev "0.1")
+		(company "Tronex s.r.o. / Tronex Group USA LLC")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names

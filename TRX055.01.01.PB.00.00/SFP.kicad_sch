@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "de26b7d0-e203-4c07-8a91-c6bb593616a5")
 	(paper "A4")
+	(title_block
+		(title "TRNX SDR Carrier board")
+		(date "2025-11-18")
+		(rev "0.1")
+		(company "Tronex s.r.o. / Tronex Group USA LLC")
+	)
 	(lib_symbols
 		(symbol "Device:FerriteBead"
 			(pin_numbers

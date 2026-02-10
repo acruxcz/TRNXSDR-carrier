@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 0.21
+          "height": 4.9,
+          "width": 2.95
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
         "creepage": "error",
@@ -514,9 +514,43 @@
         "wire_width": 6
       },
       {
-        "name": "IMP100_DIFF",
+        "name": "DDR_CTL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.1,
+        "name": "DQS0_G",
+        "pcb_color": "rgb(106, 255, 74)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "name": "DQS1_G",
+        "pcb_color": "rgb(255, 29, 59)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DQS2_G",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DQS3_G",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "IMP100_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -525,7 +559,7 @@
         "diff_pair_width": 0.124,
         "name": "IMP100_DIFF_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.124,
         "via_diameter": 0.4,
@@ -537,7 +571,7 @@
         "diff_pair_width": 0.1064,
         "name": "IMP100_DIFF_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1064,
         "via_diameter": 0.4,
@@ -612,6 +646,174 @@
       {
         "netclass": "IMP100_DIFF",
         "pattern": "*_N"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ0"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ1"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ2"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ3"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ4"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ5"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ6"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DQ7"
+      },
+      {
+        "netclass": "DQS0_G",
+        "pattern": "*DDR_DM0"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ8"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ9"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ10"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ11"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ12"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ13"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ14"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DQ15"
+      },
+      {
+        "netclass": "DQS1_G",
+        "pattern": "*DDR_DM1"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ16"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ17"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ18"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ19"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ20"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ21"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ22"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DQ23"
+      },
+      {
+        "netclass": "DQS2_G",
+        "pattern": "*DDR_DM2"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ24"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ25"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ26"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ27"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ28"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ29"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ30"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DQ31"
+      },
+      {
+        "netclass": "DQS3_G",
+        "pattern": "*DDR_DM3"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_A*"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_ODT"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_C*"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_R*"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_B*"
+      },
+      {
+        "netclass": "DDR_CTL",
+        "pattern": "*DDR_W*"
       }
     ]
   },
@@ -935,7 +1137,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "TRX055.01.01.PB.00",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1037,7 +1239,7 @@
     ],
     [
       "35e2fd30-5dc9-4c4c-b723-199ba1ded5e2",
-      "System_Managament"
+      "SMU"
     ],
     [
       "b8ba850f-82a3-47db-a6b9-012e58fb6f98",
@@ -1046,6 +1248,10 @@
     [
       "49c09a6c-9cbf-4abc-9eaa-c4c6274ce6d5",
       "TPS5430DD_DCDC"
+    ],
+    [
+      "d3e57215-4579-4b25-9e8b-bd919bbdfb86",
+      "External_Interface"
     ],
     [
       "35ea9a26-a378-4e9f-8e89-3bfd99d8af3e",

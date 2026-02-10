@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c24da885-a758-43ff-964c-2fa86530a87d")
 	(paper "A4")
+	(title_block
+		(title "TRNX SDR Carrier board")
+		(date "2025-11-18")
+		(rev "0.1")
+		(company "Tronex s.r.o. / Tronex Group USA LLC")
+	)
 	(lib_symbols
 		(symbol "Device:L_Coupled_1243"
 			(pin_names
@@ -1164,6 +1170,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BUG:\nCut connection between central tab and VDD. "
+		(exclude_from_sim no)
+		(at 105.664 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 21 1)
+			)
+		)
+		(uuid "85832bec-0e8e-4126-8e46-2ddee9250f15")
+	)
 	(junction
 		(at 133.35 78.74)
 		(diameter 0)
@@ -1217,6 +1234,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed68518a-d3e7-4c7a-b12e-dd70bc1000e2")
+	)
+	(no_connect
+		(at 105.41 54.61)
+		(uuid "6d780d57-83aa-4267-b303-8fb1bebcba46")
 	)
 	(wire
 		(pts
@@ -1846,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10P"
+		(property "Value" "DNP"
 			(at 81.28 97.7899 0)
 			(effects
 				(font
@@ -2742,7 +2763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49R9"
+		(property "Value" "DNP"
 			(at 93.98 58.4199 90)
 			(effects
 				(font
@@ -2896,7 +2917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49R9"
+		(property "Value" "DNP"
 			(at 80.01 58.4199 90)
 			(effects
 				(font
@@ -3050,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10P"
+		(property "Value" "DNP"
 			(at 95.25 97.7899 0)
 			(effects
 				(font

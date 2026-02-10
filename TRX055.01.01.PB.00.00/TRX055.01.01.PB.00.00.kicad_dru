@@ -1,8 +1,4 @@
 (version 1)
-(rule "DQ0_length_rules"
-  (condition "A.NetName == '/ZynqDDR/DDR_DQ0'")
-  (constraint length (min 27.9mm) (max 28.1mm))
-)
 
 
 (rule "DIFF_on_Internal layers"
