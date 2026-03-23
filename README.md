@@ -5,7 +5,7 @@
 ---
 
 ## 📝 Project Overview
-The **TRNXSDR** is a robust hardware platform engineered to host and interconnect specialized SDR modules. It acts as the central processing hub, providing high-speed logic, massive memory bandwidth, and versatile connectivity for complex radio applications.
+The **TRNXSDR** is a hardware platform engineered to host and interconnect specialized SDR modules. It acts as the central processing hub, providing high-speed logic, memory bandwidth, and versatile connectivity for complex radio applications.
 
 > [!IMPORTANT]
 > The **TRNXSDR** is a **Baseboard Platform**. While it provides the processing power and RF routing, it requires external SDR modules connected via the expansion slots for full radio functionality.
@@ -48,11 +48,30 @@ The platform is designed to grow. The baseboard features a flexible slot system 
 ## 💻 Software & Integration
 
 ### GNU Radio Support (Active Development)
-**Core functionality is already verified!** We have developed a custom **OOT (Out-Of-Tree) Module**, enabling basic RX/TX streaming between the hardware and GNU Radio.
+**Core functionality is already verified!** We have developed a custom **OOT (Out-Of-Tree) Module**, enabling basic RX streaming between the hardware and GNU Radio.
 *   *Current focus*: Stability improvements, feature expansion, and bug fixes.
 
+Below, you can see a GNU Radio Companion (GRC) flowgraph demonstrating the implementation of the dedicated #TRNXSDR source block.
+
+<p align="center">
+  <img src="Images/GRC_FlowGraph.png" width="90%" alt="GNU Radio flowgraph featuring the custom #TRNXSDR OOT module">
+</p>
+
+### Signal Analysis & Verification
+To verify the RF chain's integrity, we tested the SDR in the 433 MHz band. The following image shows the captured spectrum in GRC, displaying a clean signal peak and minimal noise floor.
+
+<p align="center">
+  <img src="Images/GRC_Spectrum_433MHz.png" width="90%" alt="Real-time spectrum analysis of a 433 MHz signal">
+</p>
+
+Furthermore, we performed a dynamic frequency shift test. In the waterfall plot below, you can see a "snake" pattern created by manually sweeping the carrier frequency. The sweep was performed roughly within a ±500 kHz range around the 433 MHz center.
+
+<p align="center">
+  <img src="Images/GRC_WaterFall_433MHz.png" width="90%" alt="Waterfall plot showing carrier frequency modulation (frequency sweep)">
+</p>
+
 ### Future Software Roadmap (Planned)
-*   **SoapySDR Compatibility**: Integration of a SoapySDR driver to provide a vendor-neutral API for tools like **GQRX, SDRangel, and CubicSDR**.
+*   **SoapySDR Compatibility**: Integration of a SoapySDR driver to provide a vendor-neutral API for tools like **SDR++, SDRangel, GNU Radio and more**.
 *   **OpenWiFi Project**: Investigating the possibility of hosting the OpenWiFi stack (IEEE 802.11 FPGA/Software) on #TRNXSDR hardware.
 
 ---
